@@ -59,7 +59,7 @@ Different representations of the same resource, e.g.
 are treated like separate requests and so are cached separately.
 Keep in mind when expiring an action cache that
 `action: "lists"` is not the same as
-`action: "list", format: :xml`.
+`action: "lists", format: :xml`.
 
 You can modify the default action cache path by passing a
 `:cache_path` option. This will be passed directly to
